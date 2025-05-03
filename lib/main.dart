@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Todo List',
+      title: 'Flutter Todo List 2',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: FutureBuilder<Widget>(
         future: _getInitialScreen(),
