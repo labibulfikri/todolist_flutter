@@ -1,0 +1,9 @@
+# Dart & Flutter
+.dart_tool/
+.build/
+.flutter-plugins
+.packages
+.pub-cache/
+.idea/
+android/.gradle/
+build/

@@ -1,0 +1,14 @@
+class Todo {
+  final int? id;
+  final String title;
+
+  Todo({this.id, required this.title});
+
+  Map<String, dynamic> toMap() {
+    return {'id': id, 'title': title};
+  }
+
+  static Todo fromMap(Map<String, dynamic> map) {
+    return Todo(id: map['id'], title: map['title']);
+  }
+}
